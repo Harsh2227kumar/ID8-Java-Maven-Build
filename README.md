@@ -19,33 +19,35 @@ This task was part of my DevOps internship where I set up a simple CI/CD workflo
 
 ## 📂 Project Structure
 
-ID8-Java-Maven-Build/.
-|   .gitignore.
-|   console.log.
-|   pom.xml.
-|   README.md.
-|   Screenshot1.png.
-|   Screenshot2.png.
-|.
-+---.idea.
-|       .gitignore.
-|       compiler.xml.
-|       encodings.xml.
-|       jarRepositories.xml.
-|       misc.xml.
-|       workspace.xml.
-|.
-+---.mvn.
-\---src.
-    +---main.
-    |   +---java.
-    |   |   |   HelloWorld.java.
-    |   |   |.
-    |   |   \---org.
-    |   \---resources.
-    \---test.
-        \---java.
-.
+```
+ID8-Java-Maven-Build/
+|   .gitignore
+|   console.log
+|   pom.xml
+|   README.md
+|   Screenshot1.png
+|   Screenshot2.png
+|
++---.idea
+|       .gitignore
+|       compiler.xml
+|       encodings.xml
+|       jarRepositories.xml
+|       misc.xml
+|       workspace.xml
+|
++---.mvn
+\---src
+    +---main
+    |   +---java
+    |   |   |   HelloWorld.java
+    |   |   |
+    |   |   \---org
+    |   \---resources
+    \---test
+        \---java
+
+```
 ---
 
 ## 🧪 Tools & Technologies Used
