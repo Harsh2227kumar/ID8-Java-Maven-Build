@@ -18,14 +18,34 @@ This task was part of my DevOps internship where I set up a simple CI/CD workflo
 ---
 
 ## 📂 Project Structure
-`
+
 ID8-Java-Maven-Build/
-├── pom.xml
-└── src/
-└── main/
-└── java/
-└── HelloWorld.java
-`
+|   .gitignore
+|   console.log
+|   pom.xml
+|   README.md
+|   Screenshot1.png
+|   Screenshot2.png
+|
++---.idea
+|       .gitignore
+|       compiler.xml
+|       encodings.xml
+|       jarRepositories.xml
+|       misc.xml
+|       workspace.xml
+|
++---.mvn
+\---src
+    +---main
+    |   +---java
+    |   |   |   HelloWorld.java
+    |   |   |
+    |   |   \---org
+    |   \---resources
+    \---test
+        \---java
+
 ---
 
 ## 🧪 Tools & Technologies Used
@@ -34,7 +54,7 @@ ID8-Java-Maven-Build/
 |------------|--------------------------------|
 | Jenkins    | CI/CD automation               |
 | Maven      | Java project build tool        |
-| Java 1.8   | Application runtime             |
+| Java 1.8   | Application runtime            |
 | Docker     | Running Jenkins on Windows     |
 | Git & GitHub | Source code management       |
 
@@ -44,8 +64,8 @@ ID8-Java-Maven-Build/
 
 > Successful build log from Jenkins console output:
 
-![Build Success](Screenshot1.png)
-![Build Success](Screenshot2.png)
+![Build Success 1](Screenshot1.png)
+![Build Success 2](Screenshot2.png)
 
 ---
 
